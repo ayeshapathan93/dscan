@@ -5,7 +5,7 @@ from markupsafe import Markup
 from groq import Groq
 
 # === CONFIGURATION ===
-GROQ_API_KEY = "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"  
+GROQ_API_KEY = "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"  
 IMAGE_PATH = "image.jpg" 
 ALLOWED_EXTENSIONS = {"png", "jpg", "jpeg", "dicom"}
 
@@ -87,3 +87,4 @@ if __name__ == "__main__":
         print(html_text)
     except Exception as e:
         print(f"Error: {e}")
+
